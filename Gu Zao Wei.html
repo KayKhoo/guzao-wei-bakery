@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bread Heaven</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff9f2;
+      color: #3e2f1c;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #e0c097;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: white;
+    }
+
+    .info-bar {
+      text-align: center;
+      background-color: #f5e6d3;
+      padding: 10px;
+      font-size: 1em;
+    }
+
+    .menu {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .bread-item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+
+    .bread-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+
+    .bread-details {
+      flex: 1;
+    }
+
+    .bread-name {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    .bread-desc {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .order-button {
+      margin-top: 10px;
+      background-color: #e0c097;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .order-button:hover {
+      background-color: #c68e63;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Gu Zao Wei Healthy Bakery</header>
+  <div class="info-bar">Business Hours: 7am - 2pm | Location: No. 88, Yunhe Road, Jinji Lake Business District, Suzhou Industrial Park, Suzhou, Jiangsu, China 215000</div>
+
+  <div class="menu">
+    <!-- Bread 1 -->
+    <div class="bread-item">
+      <img src="https://media-hosting.imagekit.io/0c71f8abdc26433f/2.jpg?Expires=1839596293&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vPQMNnMeShuOTJgbhg0u-ykYofaA2yzkod06EgxtaZITSqaXoifihOxN4V55zcNUsWla4pXlEPIPSQ5mPFHpDeyhP1-pPAXby7fg5W8ZX-c2XAq1zRboiyps~lmAegRIXFgw90Zt5cntL9TfZFVOWOJlE6mIbaRcTcipWE1aWZzmSi83t-LI7kfQzVyeKP47shQ1ZsE6TTyEKrKlZsJ3Fi0PL9nNZH6WKP7yTlGMu6Lb-1Y2cUe0TSUT-wDwqssqEa6PaLIWbmpUvYCdJsrRhGY3nU-mxa0NibMRlBKCZU1QyyUK7dyL0xkO0lPjiD9J6aUiDWt6WBUIiq0ELNVhrQ__" alt="Sourdough">
+      <div class="bread-details">
+        <div class="bread-name">Smoked Plum & Blueberry Low-Sugar Cake Bread</div>
+        <div class="bread-desc">Price: $5.40</div>
+        <div class="bread-desc">Ingredients: Smoked plum, blueberry, low-GI flour, olive oil</div>
+        <div class="bread-desc">Tags: Low-sugar, High-Fiber</div>
+        <button class="order-button">🛒 Order Now</button>
+      </div>
+    </div>
+
+    <!-- Bread 2 -->
+    <div class="bread-item">
+      <img src="https://media-hosting.imagekit.io/142fbf98508b4cca/1.jpg?Expires=1839596293&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZwD~HCmktfgQifAV7F0gVvJEuqxMPCJkBCZdgECsW1K3R0wLePEUrkoRB5jT7MVoE8~LQTh-CSZoC3PSN18ypgBnY0VL5fE60m4clBpwX~3gBSOTe8GFrsg8xsy5RR~KagS8aPBtk0Dl84zgA9cSBwzMVaM2XmoQ10B8Tl8WXzUr8j82vY8zkMyExFB3uwy7m685cWpQ3jp8CezD6RMmGj0i8ypjYZQQohne-S6ESIg6IO8tybGG-P0UvEqkXvANDQh8NLBNTDDnJ79rQ1M-Mv4D~xtbdKcym7Zh6b55cF6NUMI072OJmU-gdLrEolcXP1lIK8zorhb94JW0LpjH1A__" alt="Mugwort Chia Seed Bread">
+      <div class="bread-details">
+        <div class="bread-name">Mugwort Chia Seed Old-Style Bread</div>
+        <div class="bread-desc">Price: $6.50</div>
+        <div class="bread-desc">Ingredients: Mugwort, chia seed, unbleached flour, natural yeast</div>
+        <button class="order-button">🛒 Order Now</button>
+      </div>
+    </div>
+
+    <!-- Bread 3 -->
+    <div class="bread-item">
+      <img src="https://media-hosting.imagekit.io/76ecd6cc256e4e7b/4.jpg?Expires=1839596293&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=iiHTpBJO090yO7kENwdfdeyMZE9r4gpJINNJWPGWdY8kIK0AMcRIFv6Pf3yknDciI2Cf9-uIfxr9cxjY0rMm6iyNzv8oEp03KDJtcelI~b5i913eoOFO3P2Y21Q8lPzk48AIiQJTd5qGF3MK8NSAX0YVagsSRo6Ii~qLmTTpduRQaOXtsOKMEroBHMSYKDNwvxB-NflXPJCqLZAI-N1PvFYzsh-WSx3CqHUZEEwrZngV5MCbXmHIgZd~A7Ywq0UQbmetvZV0kjybCsZ-BhRiLo5KQa8KUk3NjO5Too2BXyPm8xnJCt0m~L5nncKhvNkCdtkDrASns9GcAqXgJ0Kh~Q__" alt="Whole Wheat">
+      <div class="bread-details">
+        <div class="bread-name">Cassia Seed & Basil Seed Morning Bread</div>
+        <div class="bread-desc">Price: $6.00</div>
+        <div class="bread-desc">Ingredients: Cassia seed, basil seed, multigrain flour, honey</div>
+        <button class="order-button">🛒 Order Now</button>
+      </div>
+    </div>
+
+    <!-- Bread 4 -->
+    <div class="bread-item">
+      <img src="https://media-hosting.imagekit.io/42dcb76099f14410/3.jpg?Expires=1839596293&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YmpfvTjm9YM2rEB8Fe8vMzQYkdbEEfbVqlnM4MJsSbmQJOV-RL3ePbBnFnwAHhSsxgkt5taRvVjQbTUER2Ay31sIsV9GNRTSziQvB4HlIiaA8Tih-wG~gEzskLLu1tyqGXPl6NWY6qps7BnD95HzyGKZ6XtJEEQdiAv35dGBNYf0VYB6c8v7pKtCdLNkbGoegHb8-sKamQ7InYezPqhc7wKDjjugBes8~sMNxq6yiSX2pq8mftd2NPYput8pZai4UXWW2TTGSR1LzJgM2hM5H2198wfEjmQ3IxrbkcIH2T195gGILVLoqieeUUOaQ1U1jON1To2pqIAmXIcuSvTxyg__" alt="Brioche">
+      <div class="bread-details">
+        <div class="bread-name">Mung Bean Coconut Sea Salt Bun</div>
+        <div class="bread-desc">Price: $7.00</div>
+        <div class="bread-desc">Ingredients: Mung bean, shredded coconut, sea salt, soft bun flour</div>
+        <button class="order-button">🛒 Order Now</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
